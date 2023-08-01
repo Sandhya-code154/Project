@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="MedoNew.Admin.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/Admin.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="sidebar">
+                <div class="logo-details text-center mx-5 mt-5">
+                    <img src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/64/null/external-administrator-devices-service-itim2101-lineal-color-itim2101-2.png" />
+                    <span class="logo_name mx-1" style="font-size: 28px">Admin</span>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="Dashboard.aspx">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="AddProduct.aspx">
+                            <i class='bx bx-collection'></i>
+                            <span class="link_name">Add Medicine</span>
+                        </a>
+                    </li>
+                    <!--<li>
+                            <div class="iocn-link">
+                                <a href="#">
+                                    <i class='bx bx-collection'></i>
+                                    <span class="link_name">Category</span>
+                                </a>
+                                <i class='bx bxs-chevron-down arrow'></i>
+                            </div>
+                            <ul class="sub-menu">
+                                <li><a class="link_name" href="#">Category</a></li>
+                                <li><a href="#">HTML & CSS</a></li>
+                                <li><a href="#">JavaScript</a></li>
+                                <li><a href="#">PHP & MySQL</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="iocn-link">
+                                <a href="#">
+                                    <i class='bx bx-book-alt'></i>
+                                    <span class="link_name">Posts</span>
+                                </a>
+                                <i class='bx bxs-chevron-down arrow'></i>
+                            </div>
+                            <ul class="sub-menu">
+                                <li><a class="link_name" href="#">Posts</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Login Form</a></li>
+                                <li><a href="#">Card Design</a></li>
+                            </ul>
+                        </li>-->
+                    <li>
+                        <a href="AddCategory.aspx">
+                            <i class='bx bx-pie-chart-alt-2'></i>
+                            <span class="link_name">Add Category</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Query Details</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="UpdateStatus.aspx">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Update Order Status</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="AddDiscount.aspx">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Add Coupon Code</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="PrescrUser.aspx">
+                            <i class='bx bx-collection'></i>
+                            <span class="link_name">Prescription Medicine Request </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="EmergencyRequest.aspx">
+                            <i class='bx bx-collection'></i>
+                            <span class="link_name">Emergency Medicine Request</span>
+                        </a>
+                    </li>
+                    <!--<li>
+                            <a href="#">
+                                <i class='bx bx-line-chart'></i>
+                                <span class="link_name">Chart</span>
+                            </a>
+                            <ul class="sub-menu blank">
+                                <li><a class="link_name" href="#">Chart</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="iocn-link">
+                                <a href="#">
+                                    <i class='bx bx-plug'></i>
+                                    <span class="link_name">Plugins</span>
+                                </a>
+                                <i class='bx bxs-chevron-down arrow'></i>
+                            </div>
+                            <ul class="sub-menu">
+                                <li><a class="link_name" href="#">Plugins</a></li>
+                                <li><a href="#">UI Face</a></li>
+                                <li><a href="#">Pigments</a></li>
+                                <li><a href="#">Box Icons</a></li>
+                            </ul>
+                        </li>-->
+                    <li>
+                        <a href="QueryDetails.aspx">
+                            <i class='bx bx-compass'></i>
+                            <span class="link_name">User Contact Form </span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Explore</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="OrderHistory.aspx">
+                            <i class='bx bx-history'></i>
+                            <span class="link_name">History</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">History</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--<section class="home-section">
+                    <div class="home-content d-flex justify-content-around">
+                        <div>
+                            <i class='bx bx-menu'></i>
+                            <span class="text">Admin Dashboard</span>
+                        </div>
+                        <div class="mx-1">
+                            <asp:LinkButton runat="server" Text="logout"></asp:LinkButton>
+                        </div>
+                    </div>
+                </section>-->
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="logo_name mx-2 text-decoration-none navbar-brand" href="AdminLogin.aspx">Medo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-auto justify-content-end" id="navbarNav">
+                        <a href="#">
+                            <img src="https://img.icons8.com/plasticine/60/null/mail-contact.png" /></a>
+                        <a href="#">
+                            <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/40/null/external-notification-business-kiranshastry-gradient-kiranshastry-1.png" />
+                        </a>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CssClass="btn">Logout</asp:LinkButton>
+                    </div>
+                </div>
+            </nav>
+            <div class="" style="margin-bottom:40px;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <script src="../Scripts/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

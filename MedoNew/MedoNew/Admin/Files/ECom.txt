@@ -1,0 +1,103 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Prod.aspx.cs" Inherits="Medo.Prod" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="CSS/ProdDec.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <div class="container-fluid mt-5 mb-5 pb-5 d-flex" id="ProdDiv">
+        <asp:DataList runat="server" ID="datalist">
+            <ItemTemplate>
+                <div class="card">
+                    <div class="row" id="ProdCard">
+                        <div class="col-lg-4 imgDiv mt-5 mb-5 mx-5">
+                            <img src="Images/ProductsDesc/<%#Eval("ProdImg") %>" class="img-fluid border-dark" height="650" width="650" alt="Medicine Image" />
+                        </div>
+                        <div class="col-lg-6 mt-5">
+                            <h1><%#Eval("ProductName") %></h1>
+                            <div class="spacer10"></div>
+                            <div>
+                                <span class="prodtag">Price &nbsp;:</span>
+                                <span class="ProdPrice mx-2">₹<%#Eval("ProdPrice")%></span>
+                                <p style="color: #766ceb;">(<%#Eval("ProdDet")%>)</p>
+                            </div>
+                            <div class="spacer10"></div>
+                            <div class="">
+                                <asp:Button ID="Button1" runat="server" Text="add to cart" CssClass="addToCart text-uppercase px-3 py-2" OnClick="Button1_Click" />
+                                <asp:Button ID="Button2" runat="server" Text="buy now" CssClass="BuyBtn text-uppercase mx-4 px-4 py-2" OnClick="Button2_Click" />
+                            </div>
+                            <div class="spacer10"></div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+            </ItemTemplate>
+        </asp:DataList>
+        <div class="ViewDiv d-flex flex-column justify-content-center align-items-center">
+            <div>
+                <asp:Button ID="ViewCart" runat="server" Text="view cart" OnClick="ViewCart_Click" CssClass="viewBtn d-block w-100 text-uppercase" />
+            </div>
+            <div class="">
+                <asp:Button ID="ViewWishList" runat="server" Text="view wishlist" OnClick="ViewWishList_Click" CssClass=" d-block w-100 viewCart text-uppercase" />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row" id="PillsDiv">
+                    <div class="col-lg-4">
+                        <asp:Button runat="server" ID="Over" Text="overview" CssClass="PillsBtn text-capitalize" />
+                        <asp:DataList runat="server" ID="OverDataList">
+                            <ItemTemplate>
+                                <p><strong>Introduction:</strong></p>
+                                Cellcept 250mg capsule contains the active ingredient Mycophenolate mofetil. It is an immunosuppressant used to prevent and treat organ rejection in patients receiving allogenic, kidney, heart, or liver transplants. It is indicated along with other immunosuppressants to avoid the rejection of the transplanted organ. 
+ 
+
+Inform your doctor immediately if there are any signs of fever, sore throat, bleeding, or stomach ulcer. Talk to your doctor before getting vaccinated using live vaccines. Men using Cellcept 250mg capsule must not donate sperm during the treatment and must avoid it for at least 90 days after the end of the treatment.
+ 
+
+Immunosuppressants increase the risk of skin cancer. Limit your exposure to the sun, wear protective clothing and use a sunscreen with high SPF. Cellcept 250mg capsule can cause defects in the foetus and miscarriages; hence do not start treatment with this medication without informing your doctor.
+ 
+
+Effective contraception must be followed before, during, and till six months after the end of treatment with Cellcept 250mg capsule. Diarrhoea, constipation, nausea, vomiting, stomach pain, dizziness, and headache are some common side effects of this medication.
+ 
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </div>
+                    <div class="col-lg-4">
+                        <asp:Button runat="server" ID="Inst" Text="instructions" CssClass="PillsBtn text-capitalize" />
+                    </div>
+                    <div class="col-lg-4">
+                        <asp:Button runat="server" ID="Side" Text="side effects" CssClass="PillsBtn  text-capitalize" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+</asp:Content>
+
+
+
+
+
+
+<div class="">
+                                <asp:Button ID="Button1" runat="server" Text="add to cart" CssClass="addToCart text-uppercase px-3 py-2" OnClick="Button1_Click" />
+                                <asp:Button ID="Button2" runat="server" Text="buy now" CssClass="BuyBtn text-uppercase mx-4 px-4 py-2" OnClick="Button2_Click" />
+                            </div>
+
+
+
+
+
+
+ <div class="ViewDiv d-flex flex-column justify-content-center align-items-center">
+            <div>
+                <asp:Button ID="ViewCart" runat="server" Text="view cart" OnClick="ViewCart_Click" CssClass="viewBtn d-block w-100 text-uppercase" />
+            </div>
+            <div class="">
+                <asp:Button ID="ViewWishList" runat="server" Text="view wishlist" OnClick="ViewWishList_Click" CssClass=" d-block w-100 viewCart text-uppercase" />
+            </div>
+        </div>

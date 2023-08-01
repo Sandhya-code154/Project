@@ -1,0 +1,254 @@
+C:\Users\sandhya\source\repos\MedoNew\obj\Debug\MedoNew.csproj.AssemblyReference.cache
+C:\Users\sandhya\source\repos\MedoNew\obj\Debug\MedoNew.csproj.CoreCompileInputs.cache
+C:\Users\sandhya\source\repos\MedoNew\bin\MedoNew.dll.config
+C:\Users\sandhya\source\repos\MedoNew\bin\MedoNew.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\MedoNew.pdb
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\csc.exe
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\csc.exe.config
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\csc.rsp
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\csi.exe
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\csi.exe.config
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\csi.rsp
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.AppContext.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Console.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.IO.Compression.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Net.Http.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.ValueTuple.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\vbc.exe
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\vbc.exe.config
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\vbc.rsp
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\VBCSCompiler.exe
+C:\Users\sandhya\source\repos\MedoNew\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sandhya\source\repos\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sandhya\source\repos\MedoNew\obj\Debug\MedoNew.csproj.CopyComplete
+C:\Users\sandhya\source\repos\MedoNew\obj\Debug\MedoNew.dll
+C:\Users\sandhya\source\repos\MedoNew\obj\Debug\MedoNew.pdb
+C:\Users\sandhya\source\repos\MedoNew\bin\Newtonsoft.Json.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\Razorpay.dll
+C:\Users\sandhya\source\repos\MedoNew\bin\Newtonsoft.Json.xml
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\MedoNew.dll.config
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\MedoNew.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\MedoNew.pdb
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\csc.exe
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\csc.exe.config
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\csc.rsp
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\csi.exe
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\csi.exe.config
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\csi.rsp
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.AppContext.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Console.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.IO.Compression.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Net.Http.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.ValueTuple.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\vbc.exe
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\vbc.exe.config
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\vbc.rsp
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\VBCSCompiler.exe
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\Newtonsoft.Json.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\Razorpay.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\Newtonsoft.Json.xml
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\obj\Debug\MedoNew.csproj.AssemblyReference.cache
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\obj\Debug\MedoNew.csproj.CoreCompileInputs.cache
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\obj\Debug\MedoNew.csproj.CopyComplete
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\obj\Debug\MedoNew.dll
+C:\Users\Manish verma\OneDrive\Desktop\MedoWeb\MedoNew\obj\Debug\MedoNew.pdb
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\MedoNew.dll.config
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\MedoNew.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\MedoNew.pdb
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\csc.exe
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\csc.exe.config
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\csc.rsp
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\csi.exe
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\csi.exe.config
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\csi.rsp
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.AppContext.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Console.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.IO.Compression.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Net.Http.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.ValueTuple.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\vbc.exe
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\vbc.exe.config
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\vbc.rsp
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\Newtonsoft.Json.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\Razorpay.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\Newtonsoft.Json.xml
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\obj\Debug\MedoNew.csproj.AssemblyReference.cache
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\obj\Debug\MedoNew.csproj.CoreCompileInputs.cache
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\obj\Debug\MedoNew.csproj.CopyComplete
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\obj\Debug\MedoNew.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\obj\Debug\MedoNew.pdb
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\BouncyCastle.Crypto.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\itextsharp.dll
+C:\Users\Vinit Singh\Desktop\02-04-2023\0304\MedoNew\MedoNew\bin\itextsharp.xml
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\obj\Debug\MedoNew.csproj.AssemblyReference.cache
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\obj\Debug\MedoNew.csproj.CoreCompileInputs.cache
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\MedoNew.dll.config
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\MedoNew.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\MedoNew.pdb
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\csc.exe
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\csc.exe.config
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\csc.rsp
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\csi.exe
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\csi.exe.config
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\csi.rsp
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.AppContext.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Console.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.IO.Compression.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Net.Http.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.ValueTuple.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\vbc.exe
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\vbc.exe.config
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\vbc.rsp
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\VBCSCompiler.exe
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\BouncyCastle.Crypto.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\itextsharp.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\Newtonsoft.Json.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\Razorpay.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\itextsharp.xml
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\Newtonsoft.Json.xml
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\obj\Debug\MedoNew.csproj.CopyComplete
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\obj\Debug\MedoNew.dll
+C:\Users\sandhya\Downloads\MedoNew_05_04_2023\MedoNew\MedoNew\obj\Debug\MedoNew.pdb

@@ -1,0 +1,53 @@
+﻿
+.card {
+    height: 380px !important;
+    width: 300px !important;
+    margin: 20px 10px;
+}
+
+#MainDiv {
+    border-radius: 5px;
+}
+
+.AddBtn {
+    background-color: #24aeb1;
+    color: #ffffff;
+    padding: 10px 62px;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+    .AddBtn:hover {
+        color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+#ProdCard {
+    /* border: 1px solid red;*/
+}
+
+    #ProdCard:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    #ProdCard .ProdDet {
+        margin-top: 13px;
+    }
+
+.ProdDet h6 {
+    font-size: 15px;
+}
+
+.ProdDet .price {
+    font-size: 15px;
+    color: #808080;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.ProdDet .priceNum {
+    font-size: 16.7px;
+    color: red;
+}

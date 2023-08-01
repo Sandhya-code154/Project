@@ -1,0 +1,598 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71B7C7E2-7A89-4138-AF56-625B54057372}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MedoNew</RootNamespace>
+    <AssemblyName>MedoNew</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44366</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Razorpay, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Razorpay.3.0.2\lib\net45\Razorpay.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Admin\AddCategory.aspx" />
+    <Content Include="Admin\AddDiscount.aspx" />
+    <Content Include="Admin\AddProduct.aspx" />
+    <Content Include="Admin\CSS\Admin.css" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\EmergencyRequest.aspx" />
+    <Content Include="Admin\Images\Logo\email %281%29.png" />
+    <Content Include="Admin\Images\Logo\email %282%29.png" />
+    <Content Include="Admin\Images\Logo\email.png" />
+    <Content Include="Admin\Images\Logo\id.png" />
+    <Content Include="Admin\Images\Logo\lock.png" />
+    <Content Include="Admin\Images\Logo\padlock.png" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\OrderHistory.aspx" />
+    <Content Include="Admin\PrescrUser.aspx" />
+    <Content Include="Admin\QueryDetails.aspx" />
+    <Content Include="Admin\UpdateStatus.aspx" />
+    <Content Include="Ayurvedic.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="CheckOrder.aspx" />
+    <Content Include="Chemist\AddMedicine.aspx" />
+    <Content Include="Chemist\ChemistLogin.aspx" />
+    <Content Include="Chemist\ChemistRegister.aspx" />
+    <Content Include="Chemist\EmergencyRequest.aspx" />
+    <Content Include="Chemist\OrderRecived.aspx" />
+    <Content Include="Chemist\UpdateMedicine.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="CSS\Login.css" />
+    <Content Include="CSS\Master.css" />
+    <Content Include="CSS\Product.css" />
+    <Content Include="CSS\Register.css" />
+    <Content Include="Diabetes.aspx" />
+    <Content Include="EmergencyMedicine.aspx" />
+    <Content Include="ForgotPwd.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="HomeoPathy.aspx" />
+    <Content Include="Images\Ayurvedic\1.jpg" />
+    <Content Include="Images\Ayurvedic\2.jpg" />
+    <Content Include="Images\Ayurvedic\3.jpg" />
+    <Content Include="Images\Ayurvedic\4.jpg" />
+    <Content Include="Images\BackImg\external-login-website-development-mixed-line-solid-yogi-aprelliyanto.png" />
+    <Content Include="Images\BackImg\facebook-circled--v1.png" />
+    <Content Include="Images\BackImg\google-logo.png" />
+    <Content Include="Images\BackImg\icons8-account-64 %281%29.png" />
+    <Content Include="Images\BackImg\icons8-account-64.png" />
+    <Content Include="Images\BackImg\icons8-add-2.png" />
+    <Content Include="Images\BackImg\icons8-badge-64.png" />
+    <Content Include="Images\BackImg\icons8-forgot-password-64.png" />
+    <Content Include="Images\BackImg\icons8-mail-48.png" />
+    <Content Include="Images\BackImg\icons8-mail-64.png" />
+    <Content Include="Images\BackImg\icons8-minus-64.png" />
+    <Content Include="Images\BackImg\icons8-password-reset-64 %282%29.png" />
+    <Content Include="Images\BackImg\icons8-remove-100.png" />
+    <Content Include="Images\cetaphil-os-oily-skin-cleanser-125ml_f8f27d2f-74e5-4072-b039-91407a15d124.jpg" />
+    <Content Include="Images\MastePageLogo\call.png" />
+    <Content Include="Images\MastePageLogo\change.png" />
+    <Content Include="Images\MastePageLogo\email %281%29.png" />
+    <Content Include="Images\MastePageLogo\email %282%29.png" />
+    <Content Include="Images\MastePageLogo\email.png" />
+    <Content Include="Images\MastePageLogo\grocery-store.png" />
+    <Content Include="Images\MastePageLogo\india.png" />
+    <Content Include="Images\MastePageLogo\key.png" />
+    <Content Include="Images\MastePageLogo\location.png" />
+    <Content Include="Images\MastePageLogo\logout.png" />
+    <Content Include="Images\MastePageLogo\medicine-briefcase.png" />
+    <Content Include="Images\MastePageLogo\padlock.png" />
+    <Content Include="Images\MastePageLogo\phone-call.png" />
+    <Content Include="Images\MastePageLogo\place.png" />
+    <Content Include="Images\MastePageLogo\search.png" />
+    <Content Include="Images\MastePageLogo\user.png" />
+    <Content Include="Images\PaymentImg\1.png" />
+    <Content Include="Images\PaymentImg\2.png" />
+    <Content Include="Images\pexels-julie-viken-593451.jpg" />
+    <Content Include="Images\ProdDesc\1.jpg" />
+    <Content Include="Images\ProdDesc\2.jpg" />
+    <Content Include="Images\ProdDesc\3.jpg" />
+    <Content Include="Images\ProdDesc\4.jpg" />
+    <Content Include="Images\ProdDesc\5.jpg" />
+    <Content Include="Images\ProdDesc\6.jpg" />
+    <Content Include="Images\ProdDesc\7.jpg" />
+    <Content Include="Images\ProdDesc\8.jpg" />
+    <Content Include="Images\ProdDesc\Capsules1.jpg" />
+    <Content Include="Images\ProdDesc\i-1.jpg" />
+    <Content Include="Images\ProdDesc\i-2.jpg" />
+    <Content Include="Images\ProdDesc\i-3.jpg" />
+    <Content Include="Images\ProdDesc\i-4.jpg" />
+    <Content Include="Images\ProdDesc\i-5.jpg" />
+    <Content Include="Images\ProdDesc\i-6.jpg" />
+    <Content Include="Images\ProdDesc\i-7.jpg" />
+    <Content Include="Images\ProdDesc\i-8.jpg" />
+    <Content Include="Images\ProdDesc\Image-1.jpg" />
+    <Content Include="Images\ProdDesc\image-10.jpg" />
+    <Content Include="Images\ProdDesc\image-11.jpg" />
+    <Content Include="Images\ProdDesc\image-12.jpg" />
+    <Content Include="Images\ProdDesc\image-13.jpg" />
+    <Content Include="Images\ProdDesc\image-14.jpg" />
+    <Content Include="Images\ProdDesc\image-15.jpg" />
+    <Content Include="Images\ProdDesc\image-16.jpg" />
+    <Content Include="Images\ProdDesc\Image-2.jpg" />
+    <Content Include="Images\ProdDesc\Image-3.jpg" />
+    <Content Include="Images\ProdDesc\Image-4.jpg" />
+    <Content Include="Images\ProdDesc\Image-5.jpg" />
+    <Content Include="Images\ProdDesc\Image-6.jpg" />
+    <Content Include="Images\ProdDesc\Image-8.jpg" />
+    <Content Include="Images\ProdDesc\Image-9.jpg" />
+    <Content Include="Images\ProductsImg\ayush_1.jpg" />
+    <Content Include="Images\ProductsImg\dabur.jpg" />
+    <Content Include="Images\ProductsImg\himalaya_wellness_brahmi_tablet_60_s_0.jpg" />
+    <Content Include="Images\ProductsImg\himalys.jpg" />
+    <Content Include="Images\ProductsImg\MW618e56cf766ae-400X.png" />
+    <Content Include="Images\ProductsImg\pexels-pixabay-159211.jpg" />
+    <Content Include="Images\ProductsImg\truuth_omega_3_vegan_capsules_60s_472647_0_2.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Generic.aspx" />
+    <Content Include="offers.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="shop.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="UpdatePwd.aspx" />
+    <Content Include="OrderHistory.aspx" />
+    <Content Include="UplodaPrec.aspx" />
+    <Content Include="UserControl\WebUserControl1.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddCategory.aspx.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCategory.aspx.designer.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddDiscount.aspx.cs">
+      <DependentUpon>AddDiscount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddDiscount.aspx.designer.cs">
+      <DependentUpon>AddDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddProduct.aspx.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddProduct.aspx.designer.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EmergencyRequest.aspx.cs">
+      <DependentUpon>EmergencyRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EmergencyRequest.aspx.designer.cs">
+      <DependentUpon>EmergencyRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OrderHistory.aspx.cs">
+      <DependentUpon>OrderHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OrderHistory.aspx.designer.cs">
+      <DependentUpon>OrderHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PrescrUser.aspx.cs">
+      <DependentUpon>PrescrUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PrescrUser.aspx.designer.cs">
+      <DependentUpon>PrescrUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\QueryDetails.aspx.cs">
+      <DependentUpon>QueryDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\QueryDetails.aspx.designer.cs">
+      <DependentUpon>QueryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UpdateStatus.aspx.cs">
+      <DependentUpon>UpdateStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UpdateStatus.aspx.designer.cs">
+      <DependentUpon>UpdateStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ayurvedic.aspx.cs">
+      <DependentUpon>Ayurvedic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ayurvedic.aspx.designer.cs">
+      <DependentUpon>Ayurvedic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOrder.aspx.cs">
+      <DependentUpon>CheckOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOrder.aspx.designer.cs">
+      <DependentUpon>CheckOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\AddMedicine.aspx.cs">
+      <DependentUpon>AddMedicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\AddMedicine.aspx.designer.cs">
+      <DependentUpon>AddMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\Chemist.Master.cs">
+      <DependentUpon>Chemist.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\Chemist.Master.designer.cs">
+      <DependentUpon>Chemist.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\ChemistLogin.aspx.cs">
+      <DependentUpon>ChemistLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\ChemistLogin.aspx.designer.cs">
+      <DependentUpon>ChemistLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\ChemistRegister.aspx.cs">
+      <DependentUpon>ChemistRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\ChemistRegister.aspx.designer.cs">
+      <DependentUpon>ChemistRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\EmergencyRequest.aspx.cs">
+      <DependentUpon>EmergencyRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\EmergencyRequest.aspx.designer.cs">
+      <DependentUpon>EmergencyRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\OrderRecived.aspx.cs">
+      <DependentUpon>OrderRecived.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\OrderRecived.aspx.designer.cs">
+      <DependentUpon>OrderRecived.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chemist\UpdateMedicine.aspx.cs">
+      <DependentUpon>UpdateMedicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chemist\UpdateMedicine.aspx.designer.cs">
+      <DependentUpon>UpdateMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataTb.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="Diabetes.aspx.cs">
+      <DependentUpon>Diabetes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Diabetes.aspx.designer.cs">
+      <DependentUpon>Diabetes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmergencyMedicine.aspx.cs">
+      <DependentUpon>EmergencyMedicine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmergencyMedicine.aspx.designer.cs">
+      <DependentUpon>EmergencyMedicine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPwd.aspx.cs">
+      <DependentUpon>ForgotPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPwd.aspx.designer.cs">
+      <DependentUpon>ForgotPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeoPathy.aspx.cs">
+      <DependentUpon>HomeoPathy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeoPathy.aspx.designer.cs">
+      <DependentUpon>HomeoPathy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generic.aspx.cs">
+      <DependentUpon>Generic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generic.aspx.designer.cs">
+      <DependentUpon>Generic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="offers.aspx.cs">
+      <DependentUpon>offers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="offers.aspx.designer.cs">
+      <DependentUpon>offers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop.aspx.cs">
+      <DependentUpon>shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shop.aspx.designer.cs">
+      <DependentUpon>shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePwd.aspx.cs">
+      <DependentUpon>UpdatePwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePwd.aspx.designer.cs">
+      <DependentUpon>UpdatePwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderHistory.aspx.cs">
+      <DependentUpon>OrderHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderHistory.aspx.designer.cs">
+      <DependentUpon>OrderHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UplodaPrec.aspx.cs">
+      <DependentUpon>UplodaPrec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UplodaPrec.aspx.designer.cs">
+      <DependentUpon>UplodaPrec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\WebUserControl1.ascx.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\WebUserControl1.ascx.designer.cs">
+      <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Admin\AdminMaster.Master" />
+    <Content Include="Chemist\Chemist.Master" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\Files\" />
+    <Folder Include="Admin\product\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Invoice\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65170</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44366/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

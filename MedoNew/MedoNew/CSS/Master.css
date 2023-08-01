@@ -1,0 +1,148 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Head {
+    border-bottom: 1px solid grey;
+    min-height: 60px;
+    background-color: #033b4d;
+}
+
+.SearchSection {
+    min-height: 80px;
+    padding-left: 100px;
+}
+
+    .SearchSection .Icons a {
+        font-size: 23px;
+        padding: 0 12px;
+        color: black;
+    }
+
+    .SearchSection #searchInput {
+        width: 700px !important;
+        border-radius: 25px;
+        padding: 15px 70px 15px 25px;
+    }
+
+        .SearchSection #searchInput:hover {
+            border: 2px solid #033b4d !important;
+        }
+
+    .SearchSection .Icons a {
+        margin-left: 30px;
+        padding: 0 1px;
+        font-size: 23px;
+    }
+
+    .SearchSection #SearchBtn {
+        padding: 10px 25px;
+        border-radius: 30px;
+        position: relative;
+        left: -70px;
+        color: #ffff;
+        background-color: #24aeb1;
+        border: 1px solid rgb(51, 255, 214);
+    }
+
+.navbar {
+   /* background-color: rgb(51, 255, 214);*/
+   /*  background-color: #10847e;*/
+   background-color: #24aeb1;
+}
+
+    .navbar .alldrp {
+        font-size: 15px;
+        padding: 11px 35px 11px 20px;
+        background: transparent;
+        border: 1px solid #fff;
+        color:#fff;
+    }
+    .navbar select option {
+        color: #fff;
+        background-color: #24aeb1;
+        
+    }
+    .navbar ul li a {
+        font-weight: 500;
+        font-size: 17px;
+        color:#fff;
+    }
+
+        .navbar ul li a:hover {
+            color: #ffffff;
+        }
+
+
+
+#LogImg {
+    display: none;
+}
+
+.footer {
+    height: 470px;
+    margin-bottom: 0px;
+    background-color: #033b4d;
+}
+
+    .footer p {
+        color: #c6c6c6;
+        font-size: 15px;
+        padding-top: 30px;
+        text-align: justify;
+        word-spacing: 0.4px;
+    }
+
+    .footer h6 {
+        padding-top: 30px;
+        font-size: 18px;
+        color: #fff;
+        padding-bottom:10px
+    }
+
+    .footer ul li {
+        list-style-type: none;
+        padding: 5px 0px;
+    }
+
+        .footer ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 13px 0px;
+        }
+
+    .footer .call b {
+        color: white;
+    }
+
+    .footer .call a {
+        text-decoration: none;
+        color: #fff;
+        padding:100px 0px;
+    }
+
+    .footer span .callLogo {
+        background-color: #033b4d;
+        border-radius: 100%;
+    }
+
+    .footer .borderFooter {
+        border: 1px solid #fff;
+        opacity: 0.3;
+    }
+
+    .ProdCard{
+        height:100px !important;
+        width:400px !important;
+    }
+
+
+#NotDiv{
+    display:none;
+}

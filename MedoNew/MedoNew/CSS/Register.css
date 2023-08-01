@@ -1,0 +1,116 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    min-height: 700px;
+    width:700px !important;
+    box-shadow: 10px 20px 20px rgb(179, 179, 204);
+    border: none !important;
+}
+
+    .card .inputDiv img {
+        position: relative;
+        left:35px;
+    }
+
+.spacer5 {
+    margin-top: 5px;
+}
+
+.spacer10 {
+    margin-top: 10px;
+}
+
+.spacer15 {
+    margin-top: 10px;
+}
+
+.spacer20 {
+    margin-top: 20px;
+}
+
+.spacer25 {
+    margin-top: 25px;
+}
+
+.spacer30 {
+    margin-top: 30px;
+}
+
+.form-control {
+    padding: 10px 10px 10px 45px !important;
+    margin-right: 20px;
+}
+
+.age {
+    width: 40%;
+    left: 48px;
+    position: absolute;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.drop {
+    padding: 10px 10px 10px 10px !important;
+    width: 92%;
+}
+
+.btn {
+    font-weight: 600;
+    background-color: #00d9c5;
+    color: #fff;
+    padding: 100px 0px;
+    margin-left: 1px;
+    font-size: 18px;
+}
+
+    .btn:hover {
+        background-color: #00d9c5;
+        color: #fff;
+    }
+
+.req {
+    position: relative;
+    left: 32px;
+    color: red;
+}
+
+.req1 {
+    position: relative;
+    left: 32px;
+    color: red;
+    top: 47px;
+}
+
+a {
+    color: #000000;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+    a:hover {
+        color: #00d9c5;
+    }
+
+p {
+    padding-top: 1px;
+    font-size: 17px;
+}
+.regdiv{
+    border:1px solid black !important;
+    min-height:600px;
+}
+    

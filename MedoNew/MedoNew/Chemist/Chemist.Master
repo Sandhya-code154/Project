@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Chemist.master.cs" Inherits="MedoNew.Chemist.Chemist" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Admin/CSS/Admin.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="sidebar">
+                <div class="logo-details text-center mx-5 mt-5">
+                    <img src="https://img.icons8.com/color/48/null/pharmacistmen.png" />
+                    <span class="logo_name mx-1" style="font-size: 28px; border-bottom: 2px solid black">Chemist</span>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="AddMedicine.aspx">
+                            <i class='bx bx-collection'></i>
+                            <span class="link_name">Add Medicine</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="OrderRecived.aspx">
+                            <i class='bx bx-history'></i>
+                            <span class="link_name">Order Recived</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="bookingHistory.aspx" href="#">Order History</a></li>
+                        </ul>
+                    </li>
+                    <!--<li>
+                        <a href="UpdateStatus.aspx">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Update Order Status</span>
+                        </a>
+                    </li>-->
+                    <li>
+                        <a href="EmergencyRequest.aspx">
+                            <i class='bx bx-grid-alt'></i>
+                            <span class="link_name">Emercgency Request</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="profile-details">
+                            <div class="profile-content">
+                            </div>
+                            <div class="name-job">
+                                <div class="profile_name"></div>
+                                <div class="job"></div>
+                            </div>
+                            <i class='bx bx-log-out'></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="logo_name mx-5 text-decoration-none navbar-brand" href="AdminLogin.aspx">MedoOnline</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-auto justify-content-end" id="navbarNav">
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" CssClass="btn">Logout</asp:LinkButton>
+                    </div>
+                </div>
+            </nav>
+            <div class="" style="margin-bottom:40px;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

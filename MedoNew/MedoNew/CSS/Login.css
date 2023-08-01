@@ -1,0 +1,126 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.card {
+    min-height: 600px;
+    width: 500px;
+    box-shadow: 10px 20px 20px rgb(179, 179, 204);
+    border: none !important;
+}
+
+    .card .inputDiv img {
+        position: relative;
+        left: 32px;
+    }
+
+label {
+    position: relative;
+    left: 32px;
+}
+
+
+.form-control {
+    margin-right: 20px;
+    width: 530px !important;
+    padding: 10px 10px 10px 40px !important;
+}
+
+    .form-control:hover {
+        border: 1px solid #f2ccff !important;
+    }
+
+.spacer5 {
+    margin-top: 5px;
+}
+
+.spacer10 {
+    margin-top: 10px;
+}
+
+.spacer15 {
+    margin-top: 10px;
+}
+
+.spacer20 {
+    margin-top: 20px;
+}
+
+.spacer30 {
+    margin-top: 30px;
+}
+
+.btn {
+    font-weight: 600;
+    background-color: #00d9c5;
+    color: #fff;
+    padding: 100px 0px;
+    margin-left: 1px;
+    font-size: 18px;
+}
+
+    .btn:hover {
+        background-color: #00d9c5;
+        color: #fff;
+    }
+
+.google button {
+    border: none;
+    padding: 8px 0px;
+}
+
+.facebook button {
+    border: none;
+    padding: 8px 0px;
+}
+
+.google img {
+    margin-right: 5px;
+}
+
+.facebook img {
+    margin-right: 3px;
+}
+
+label {
+    margin-bottom: 2px;
+}
+
+a {
+    color: black;
+}
+
+    a:hover {
+        color: #00d9c5;
+    }
+
+.req {
+    position: relative;
+    left: 32px;
+}
+
+p {
+}
+
+.dropdown {
+   
+    position: relative;
+    left: 32px;
+    
+}
+    .dropdown #dropdown{
+        border:1px solid red;   
+
+    }
+
